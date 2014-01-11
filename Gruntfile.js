@@ -124,16 +124,6 @@ module.exports = function (grunt) {
                 dirs: ['<%= yeoman.dist %>']
             }
         },
-        imagemin: {
-            dist: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= yeoman.app %>/images',
-                    src: '{,*/}*.{png,jpg,jpeg}',
-                    dest: '<%= yeoman.dist %>/images'
-                }]
-            }
-        },
         vulcanize: {
            default: {
                     options: {},
@@ -191,10 +181,8 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
-        
         'vulcanize',
         'useminPrepare',
-        'imagemin',
         // 'concat',
         // 'uglify',
         'copy',
