@@ -12,12 +12,14 @@ Boilerplate for a Polymer.js project
 ## Features
 
 * Boilerplate for Polymer elements & Custom elements
+* Vulcanize support for inlining HTML Imports, scripts and stylesheets
 * Minimal HTML5 Boilerplate
 * LiveReload support - edit and automatically refresh the browser
 * Support for SASS Bootstrap 3.0
 * JSHint linting for projects
 * HTML/CSS/JS optimization
-* `grunt-vulcanize` support for inlining HTML Imports, scripts and stylesheets.
+* Unit testing via Mocha
+* Sane project stucture
 
 ## Getting started
 
