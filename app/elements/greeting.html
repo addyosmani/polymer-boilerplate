@@ -1,22 +1,14 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<polymer-element name="polymer-greeting"  attributes="">
+<polymer-element name="polymer-greeting"  attributes="name">
   <template>
-    <style>
-      /* styles for the custom element itself - lowest specificity */
-      :host { display: block; }
-      /* 
-      style if an ancestor has the different class
-      :host(.different) { } 
-      */
-    </style>
-    <h1>{{ greeting }}, {{ greeting }}!</h1>
+    <h1>'Allo, {{ name }}!</h1>
     <span>Update text to change the greeting.</span>
-    <input type="text" value="{{ greeting }}">
+    <input type="text" value="{{ name }}">
   </template>
   <script>
     Polymer('polymer-greeting', {
-      greeting : '\'Allo'
+      name : 'Addy'
     });
   </script>
 </polymer-element>
