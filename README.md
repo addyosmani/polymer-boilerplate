@@ -1,6 +1,6 @@
 ## Polymer.js Boilerplate
 
-Boilerplate for a Polymer.js project
+Polymer Boilerplate is a front-end template for building fast, robust, and adaptable web apps using Web Components.
 
 <img src="http://i.imgur.com/J7bp9al.png" width="250px"/>
 
@@ -18,12 +18,19 @@ Boilerplate for a Polymer.js project
 * JSHint linting for projects
 * Mocha for unit testing
 * Sane project stucture
+* Simple sample Polymer elements
+* "Delete-key friendly." Easy to strip out parts you don't need.
 
 ## Preview
 
 <img src="http://i.imgur.com/Ntu8HVR.png" width="80%"/>
 
-## Getting started
+## Quick start
+
+Clone the git repo — `git clone
+   https://github.com/addyosmani/polymer-boilerplate.git` - and checkout the [tagged
+   release](https://github.com/addyosmani/polymer-boilerplate/releases) you'd like to
+   use.
 
 ```
 # Install our Grunt dependencies
@@ -39,6 +46,10 @@ $ grunt build
 # Run any unit tests you might have written
 $ grunt test
 ```
+
+## Contributing
+
+Anyone and everyone is welcome to [contribute](CONTRIBUTING.md).
 
 ## Looking for Polymer.js tooling?
 
