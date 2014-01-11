@@ -19,6 +19,10 @@ Boilerplate for a Polymer.js project
 * Mocha for unit testing
 * Sane project stucture
 
+## Preview
+
+<img src="http://i.imgur.com/Ntu8HVR.png" width="80%"/>
+
 ## Getting started
 
 ```
