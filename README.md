@@ -19,6 +19,7 @@ Polymer Boilerplate is a front-end template for building fast, robust, and adapt
 * Mocha for unit testing
 * Sane project stucture
 * Simple sample Polymer elements
+* Grunt for build-process, Bower for dep. management
 * "Delete-key friendly." Easy to strip out parts you don't need.
 
 ## Preview
