@@ -23,7 +23,8 @@ Boilerplate for a Polymer.js project
 
 ```
 # Install our Grunt dependencies
-cd polymer-boilerplate && npm install
+$ cd polymer-boilerplate
+$ npm install && bower install
 
 # Edit and the browser live reloads
 $ grunt server
