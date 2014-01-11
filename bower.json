@@ -1,6 +1,6 @@
 {
   "name": "polymer-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "dependencies": {
     "platform": "Polymer/platform#master",
     "polymer": "Polymer/polymer#master"
