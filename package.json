@@ -1,6 +1,6 @@
 {
   "name": "polymer-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
