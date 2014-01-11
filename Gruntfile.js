@@ -134,16 +134,6 @@ module.exports = function (grunt) {
                 }]
             }
         },
-        cssmin: {
-            dist: {
-                files: {
-                    '<%= yeoman.dist %>/styles/main.css': [
-                        '.tmp/styles/{,*/}*.css',
-                        '<%= yeoman.app %>/styles/{,*/}*.css'
-                    ]
-                }
-            }
-        },
         vulcanize: {
            default: {
                     options: {},
@@ -206,7 +196,6 @@ module.exports = function (grunt) {
         'useminPrepare',
         'imagemin',
         // 'concat',
-        'cssmin',
         // 'uglify',
         'copy',
         'usemin'
