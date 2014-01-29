@@ -10,5 +10,5 @@ if (!!!window.Polymer) { //if (this === window) {
 
   document.write(
     '<script src="../bower_components/platform/platform.js"></script>' +
-    '<link rel="import" href="wc-documentation.html">');
+    '<link rel="import" href="../docs/wc-documentation.html">');
 }
