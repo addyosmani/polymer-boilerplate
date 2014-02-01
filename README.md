@@ -28,6 +28,12 @@ Polymer Boilerplate is a front-end template for building fast, robust, and adapt
 
 ## Quick start
 
+## Using Bower
+
+Run `bower install polymer-boilerplate`
+
+## With Git
+
 Clone the git repo — `git clone
    https://github.com/addyosmani/polymer-boilerplate.git` - and checkout the [tagged
    release](https://github.com/addyosmani/polymer-boilerplate/releases) you'd like to
