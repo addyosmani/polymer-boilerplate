@@ -1,3 +1,7 @@
+## Update
+
+I now recommend using [seed-element](https://github.com/PolymerLabs/seed-element) if you're starting off new Polymer elements. I wrote a guide on how to use it over on the [Polymer](http://www.polymer-project.org/docs/start/reusableelements.html) docs site.
+
 ## Polymer.js Boilerplate
 
 Polymer Boilerplate is a front-end template for building fast, robust, and adaptable web apps using Web Components.
